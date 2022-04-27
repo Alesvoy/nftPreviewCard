@@ -1,4 +1,5 @@
 @import './../sass-utils/variables';
+@import './../sass-utils/mixin';
 
 .card {
   background: $neutral-mid-blue;
@@ -15,10 +16,28 @@
   &__image {
     width: 27.8rem;
     border-radius: 1rem;
+    position: relative;
+
+    &__container:hover::before {
+      cursor: pointer;
+      content: url(./../../images/icon-view.svg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+
+      width: 27.8rem;
+      height: 27.8rem;
+      border-radius: 1rem;
+      background-color: hsla(178, 100%, 50%, 0.5);
+      z-index: 1;
+    }
   }
 
   &__title {
     align-self: flex-start;
+
+    @include addHoverEffect;
   }
 
   &__text {
@@ -84,6 +103,8 @@
 
       & span {
         color: #fff;
+
+        @include addHoverEffect;
       }
     }
   }

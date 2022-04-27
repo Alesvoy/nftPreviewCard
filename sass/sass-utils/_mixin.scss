@@ -1,0 +1,6 @@
+@mixin addHoverEffect {
+  &:hover {
+    cursor: pointer;
+    color: #00fff8;
+  }
+}
