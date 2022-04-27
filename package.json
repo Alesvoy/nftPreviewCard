@@ -1,0 +1,22 @@
+{
+  "name": "nftpreviewcard",
+  "version": "1.0.0",
+  "description": "Challenge by Frontendmentor.io",
+  "main": "app.js",
+  "scripts": {
+    "build": "sass --watch ./sass/style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alesvoy/nftPreviewCard.git"
+  },
+  "author": "Alejandro Butrón",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alesvoy/nftPreviewCard/issues"
+  },
+  "homepage": "https://github.com/Alesvoy/nftPreviewCard#readme",
+  "dependencies": {
+    "sass": "^1.51.0"
+  }
+}
