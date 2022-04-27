@@ -1,0 +1,90 @@
+@import './../sass-utils/variables';
+
+.card {
+  background: $neutral-mid-blue;
+  border-radius: 1rem;
+  padding: 2.4rem;
+  color: #fff;
+  width: 32.7rem;
+  height: 54.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  &__image {
+    width: 27.8rem;
+    border-radius: 1rem;
+  }
+
+  &__title {
+    align-self: flex-start;
+  }
+
+  &__text {
+    font-weight: 300;
+    color: #8aacd9;
+  }
+
+  &__price {
+    width: 7rem;
+  }
+
+  &__eth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 8.848rem;
+    font-size: 1.5rem;
+    color: #00fff8;
+  }
+
+  &__time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 9.2rem;
+
+    &__text {
+      font-weight: 400;
+      font-size: 1.5rem;
+      color: #8aacd9;
+    }
+  }
+
+  &__details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & hr {
+    width: 100%;
+    height: 0.1rem;
+    color: #2b3c57;
+  }
+
+  &__author {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    &__image {
+      width: 3.3rem;
+      border: 1px solid #fff;
+      border-radius: 100px;
+      margin-right: 2rem;
+    }
+
+    &__text {
+      color: #8cacd9;
+      word-spacing: 0.3rem;
+      font-size: 1.5rem;
+      font-weight: 400;
+
+      & span {
+        color: #fff;
+      }
+    }
+  }
+}

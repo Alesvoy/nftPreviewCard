@@ -1,3 +1,8 @@
-body {
-  background: red;
-}
+@import './base/reset';
+@import './base/typography';
+
+@import './sass-utils/variables';
+
+@import './pages/home';
+
+@import './components/card';

@@ -1,0 +1,8 @@
+@import './../sass-utils/variables';
+
+body {
+  background: $neutral-high-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
